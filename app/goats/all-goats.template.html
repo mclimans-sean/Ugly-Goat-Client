@@ -1,5 +1,5 @@
 <main class="container">
-  <div ng-repeat="goat in $ctrl.goats"
+  <div ng-repeat="goat in $ctrl.goats | orderBy: '-rating'"
     class="panel panel-info">
     <div class="panel-heading">
       <h3 class="panel-title">{{goat.title}}</h3>
