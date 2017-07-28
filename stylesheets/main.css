@@ -1,4 +1,18 @@
+.navbar {
+  margin-top: 10px;
+}
+
 img {
-  width: 30%;
+  width: 90%;
   margin: 1vw auto;
+}
+
+.goat-list {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  width: 70%;
+  margin: 0 auto;
 }
